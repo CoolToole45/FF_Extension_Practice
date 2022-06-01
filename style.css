@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    padding: 1rem;
+    min-width: 300px;
+}
+
+body input {
+    width: 100%;
+    margin: 0.5rem 0;
+    outline: 0.5px solid rgb(40, 166, 224);
+    border-radius: 6px;
+    border-color: rgb(29, 67, 238);
+    padding: 0.3rem;
+}
+
+body button {
+    padding: 0.4rem;
+    border: none;
+    border-radius: 4px;
+    border: 2px solid rgb(29, 67, 238);
+    background-color: rgb(29, 67, 238);
+    color: #fff;
+    font-weight: bold;
+}
+
+#delete-btn {
+    color: rgb(29, 67, 238);
+    background-color: #fff;
+    border: 2px solid rgb(29, 67, 238);
+}
+
+#delete-btn:hover {
+    background-color: rgb(187, 187, 187);
+}
+
+body button:hover {
+    background-color: rgb(23, 24, 119);
+    cursor: pointer;
+}
+
+#ul-el {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+#ul-el > * {
+    margin: 0.3rem 0;
+}
+
+a {
+    color: rgb(29, 67, 238);
+}
+
+a:hover {
+    color: rgb(23, 24, 119);
+}
